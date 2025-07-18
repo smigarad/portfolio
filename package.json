@@ -11,7 +11,8 @@
     "tailwindcss": "^4.1.11"
   },
   "scripts": {
-    "dev": "@tailwindcss/cli -i ./src/assets/css/tailwind.css -o ./dev/output.css",
+    "dev": "npx @tailwindcss/cli -i ./src/assets/css/tailwind.css -o ./dist/tailwind.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/assets/css/tailwind.css -o ./dist/tailwind.css --minify",
     "prepare": "husky",
     "format": "prettier --write"
   },

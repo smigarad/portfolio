@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.overlay-bg {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+}
+section {
+  scroll-margin-top: 4rem;
+}
